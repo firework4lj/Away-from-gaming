@@ -1,0 +1,10 @@
+name: setwarp
+main: com.gmail.firework4lj.Main
+version: 1.0
+author: Firework4lj
+
+commands:
+  setwarp:
+    description: Sets the warp
+  warp:
+    description: Warps to the warp location
