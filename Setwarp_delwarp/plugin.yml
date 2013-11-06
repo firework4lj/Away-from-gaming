@@ -5,6 +5,8 @@ author: Firework4lj
 
 commands:
   setwarp:
-    description: Sets the warp
+    description: Sets the warp.
   warp:
-    description: Warps to the warp location
+    description: Warps to the warp location.
+  delwarp:
+    description: Deletes the warp saved to config.
