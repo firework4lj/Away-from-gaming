@@ -34,6 +34,8 @@ public class Main extends JavaPlugin{
 		p.teleport(warp);
 		p.sendMessage(ChatColor.GRAY+"Teleporting...");
 		
+		}else if(cmd.getName().equalsIgnoreCase("delwarp")){
+		// TODO Make code for this
 		}
 		return false;
 	}
