@@ -10,12 +10,13 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin{
 
+	// Enable method which creates and saves the config as well as sends a message to the console that the plugin is enabled.
 	@Override
 	public void onEnable(){
 		getConfig().options().copyDefaults();
 		getLogger().info("Plugin enabled!");
 	}
-	
+	// Disable method to simple send as message to the console that the plugin has been disabled.
 	@Override
 	public void onDisable(){
 		getLogger().info("Plugin disabled!");
