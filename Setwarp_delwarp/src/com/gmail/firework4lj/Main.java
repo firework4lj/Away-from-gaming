@@ -35,7 +35,11 @@ public class Main extends JavaPlugin{
 		p.sendMessage(ChatColor.GRAY+"Teleporting...");
 		
 		}else if(cmd.getName().equalsIgnoreCase("delwarp")){
-		// TODO Make code for this
+			getConfig().set("location.world", null);
+			getConfig().set("location.warpx", null);
+			getConfig().set("location.warpy", null);
+			getConfig().set("location.warpz", null);
+			p.sendMessage(ChatColor.GOLD+"Warp sucessfully deleted!");
 		}
 		return false;
 	}
